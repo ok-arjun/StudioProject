@@ -1,0 +1,16 @@
+  .container{
+    margin-top: 50px;
+  }
+  .card{
+    margin: 35px;
+  }
+  .card:hover{
+    box-shadow: 0px 5px 15px #000;
+    transform: scale(105%);
+    transition: ease-in-out 0.2s;
+  }
+  .btn{
+    font-size: small;
+  }
+
+  
