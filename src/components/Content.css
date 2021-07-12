@@ -1,17 +1,74 @@
-  .container{
+  .product-title {
+    text-align: justify;
+    padding: 25px;
+    margin-bottom: 50px;
     margin-top: 50px;
   }
 
-  .card{
+  .product-title::after {
+    content: '';
+    background: #000000;
+    height: 1px;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    opacity: 0.7;
+  }
+
+  .card {
     width: 15rem;
     margin: 30px;
   }
-  .btn{
+
+  .btn {
     font-size: small;
-  
   }
-  .off-price{
-     font-size: 12px;
-     text-decoration: line-through;
+
+  .off-price {
+    font-size: 12px;
+    text-decoration: line-through;
   }
-  
+
+  .process-icon1 {
+    background-color: lightblue;
+    border-radius: 50%;
+    padding: 20px;
+  }
+
+  .process-body {
+    padding-left: 10px;
+    margin-top: 8px;
+  }
+
+  .process-title {
+    text-align: justify;
+    padding: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .process-title::after {
+    content: '';
+    background: #000000;
+    height: 1px;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    opacity: 0.7;
+  }
+span{
+  font-size: 12px;
+  padding: 3px;
+}
+  @media only screen and ( max-width: 700px) {
+    .body-main{
+      margin-left: 100px;
+    }
+    .process-media {
+      margin: 20px 0px 20px 0px;
+    }
+  }
