@@ -1,0 +1,38 @@
+.main{
+	margin-top: 70px;
+}
+.gallery img
+{
+  width: 300px;
+  margin: 30px 50px 30px 50px; 
+  padding: 	5px 5px 5px 5px;
+}
+.art
+{
+	text-align: center;
+    margin-top: 50px;
+}
+.pd h4
+{  
+	padding-bottom: 35px;
+	letter-spacing: 5px;
+	text-align: center;
+	color: #fff;
+}
+.heading
+{
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.heading::after
+{
+	content: '';
+	background: #000000;
+	height: 2px;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 10px;
+}
